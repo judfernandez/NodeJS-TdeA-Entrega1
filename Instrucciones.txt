@@ -1,0 +1,19 @@
+A continuación encontrara los pasos para probar el programa de la entrega 1:
+
+	Preparación e instalación:
+	1)Instalar NodeJS (preferiblemente la versión v10.15.3).
+	2)Instalar YARGS (Luego de tener instalado NodeJS ejecutar en la 
+	  consola como administrador: npm i yargs).
+	3)Descargue el archivo entrega1.rar.
+	4)Descomprima el archivo entrega1.rar (preferiblemente en una carpeta aislada).
+
+	Compilación y ejecución:
+	1)Ejecute la consola preferiblemente como administrador.
+	2)Navegue en la consola hasta la carpeta donde tenga los archivos que descomprimió 
+	  (Curso & Principal).
+	3)Cuando este en la carpeta donde tiene los archivos ejecute los siguientes 
+	  comandos sin las comillas:
+	  -1er comando: "node Principal.js": Mostrara los cursos disponibles y su información.
+	  -2do comando: "node Principal.js inscribir": Le permitirá inscribirse al curso que 
+			desee pero deberá escribir la id del curso, su nombre y su cédula
+			así: -i=Id_Curso -n=Su_Nombre -c=Su_Cédula.
